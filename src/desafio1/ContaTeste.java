@@ -10,6 +10,9 @@ public class ContaTeste {
 		System.out.println(cc);
 		System.out.println(cp);
 		
+		System.out.println("O imposto sobre rendimento da Conta Corrente é R$ " + cc.calcularImposto() + "\n");
+		System.out.println("O imposto sobre rendimento da Conta Corrente é R$ " + cp.calcularImposto() + "\n");
+		
 	}
 
 }
